@@ -1,21 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Nav from './Nav';
+import Main from './Main';
+import Menu from './Menu';
 
 function App() {
   return (
-    <header>
-      {header}
-    </header>
-    <nav>
-      
-    </nav>
-    <main>
-      
-    </main>
-    <footer>
-      
-    </footer>
-  );
+    <>
+    <Nav/>
+    <Main/>
+    <Menu/>
+    <Footer/>
+    </>
+  )
 }
 
 export default App;
